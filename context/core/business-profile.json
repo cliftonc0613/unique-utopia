@@ -1,0 +1,70 @@
+{
+  "_metadata": {
+    "created_date": "2026-03-23T00:00:00Z",
+    "updated_date": "2026-03-23T00:00:00Z",
+    "version": "1.0"
+  },
+  "overview": {
+    "business_name": "Unique Utopia Home Cleaning & Pet Care",
+    "owner": "Kelly",
+    "what_you_do": "Professional home cleaning and pet care services for busy families",
+    "who_you_serve": "Busy homeowners and pet parents in Greer, SC and surrounding areas",
+    "primary_transformation": "Giving families clean homes, happy pets, and more free time",
+    "mission": "Help families keep their homes polished and their pets pampered",
+    "vision": "Be the most trusted home and pet care provider in the Greer, SC area",
+    "tagline": "Polished Homes. Pampered Pets. Your mess is our little secret."
+  },
+  "positioning": {
+    "unique_angle": "One trusted provider for both home cleaning and pet care",
+    "what_makes_you_different": [
+      "Dual-service: home cleaning AND pet care from one provider",
+      "Licensed, insured & bonded",
+      "Personal, caring approach -- Kelly treats every home and pet like her own",
+      "Mother's Helper services for busy moms",
+      "100% recommendation rate from every client"
+    ],
+    "core_philosophy": "Every family deserves a clean home and happy pets without sacrificing their free time",
+    "problem_you_solve": "The overwhelming burden of maintaining a clean home and caring for pets while managing a busy life",
+    "core_value_proposition": "One call covers your home and your pets -- no more juggling multiple services"
+  },
+  "offerings": {
+    "home_cleaning": [
+      "Regular & Deep Cleaning",
+      "Move-In / Move-Out Cleaning",
+      "Laundry & Light Organizing",
+      "Appliance Cleaning",
+      "Window Cleaning"
+    ],
+    "pet_care": [
+      "Pet Sitting & Walking",
+      "Feeding / Fresh Water",
+      "Pet Bathing & Brushing",
+      "Litter Box Cleaning",
+      "Playtime & Companionship"
+    ],
+    "additional": [
+      "Mother's Helper Services",
+      "Weekly Walk & Care Bundles",
+      "Spring Cleaning Specials"
+    ],
+    "pricing_notes": {
+      "laundry_service": "$20 per load",
+      "spring_cleaning_special": "$100"
+    }
+  },
+  "contact": {
+    "phone": "(864) 553-3845",
+    "email": "uniqueutopia19@gmail.com",
+    "location": "Greer, SC",
+    "service_area": "Greer, SC and surrounding areas",
+    "facebook": "https://www.facebook.com/profile.php?id=61588509315837"
+  },
+  "credentials": {
+    "licensed": true,
+    "insured": true,
+    "bonded": true,
+    "reviews": "6+ five-star reviews",
+    "recommendation_rate": "100%",
+    "followers": "279+"
+  }
+}

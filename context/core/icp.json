@@ -1,0 +1,98 @@
+{
+  "_metadata": {
+    "created_date": "2026-03-23T00:00:00Z",
+    "updated_date": "2026-03-23T00:00:00Z",
+    "version": "1.0",
+    "total_personas": 2
+  },
+  "personas": [
+    {
+      "persona_name": "Busy Working Parent",
+      "persona_id": "busy-parent",
+      "demographics": {
+        "age_range": "30-50",
+        "household": "Dual-income family with kids and pets",
+        "location": "Greer, SC and surrounding areas",
+        "income_or_revenue_level": "Middle to upper-middle class"
+      },
+      "psychographics_and_mindset": {
+        "core_values": ["Family time", "Clean living space", "Pet welfare", "Work-life balance"],
+        "mindset_or_philosophy": "I want to do it all but I physically cannot keep up with everything",
+        "aspirations": ["More quality family time", "A consistently clean home", "Happy, healthy pets"],
+        "fears_and_anxieties": ["Falling behind on housework", "Pets being neglected", "Being judged for a messy home"],
+        "ideal_future_state": "Come home to a clean house and happy pets without lifting a finger"
+      },
+      "problems_and_pain_points": {
+        "top_pain_points": [
+          "Never enough time to keep the house clean",
+          "Guilt about pets being home alone all day",
+          "Weekends consumed by catch-up cleaning instead of family time",
+          "Juggling multiple service providers for different needs"
+        ],
+        "cost_of_problem": {
+          "time": "10+ hours per week on cleaning and pet care",
+          "money": "No cost yet -- doing it themselves at expense of free time",
+          "opportunity": "Missing family time, hobbies, rest",
+          "morale": "Exhaustion, guilt, frustration"
+        }
+      },
+      "goals_and_desired_outcomes": {
+        "primary_goal": "Reclaim weekends and evenings by outsourcing home and pet care",
+        "success_definition": {
+          "metrics": ["Clean home every week", "Pet walked daily"],
+          "feelings": ["Relief", "Freedom", "Peace of mind"],
+          "results": ["More family time", "Less stress", "Happier pets"]
+        }
+      },
+      "buying_signals_and_readiness": {
+        "buying_signals": [
+          "Falling behind on cleaning after a busy week",
+          "Pet showing signs of boredom or restlessness",
+          "Upcoming move or special event",
+          "Recommendation from a friend or neighbor"
+        ]
+      }
+    },
+    {
+      "persona_name": "Pet Parent Professional",
+      "persona_id": "pet-parent-pro",
+      "demographics": {
+        "age_range": "25-45",
+        "household": "Single professional or couple with dogs and/or cats",
+        "location": "Greer, SC area",
+        "income_or_revenue_level": "Middle class"
+      },
+      "psychographics_and_mindset": {
+        "core_values": ["Animal welfare", "Responsibility", "Reliability"],
+        "mindset_or_philosophy": "My pet deserves the best care even when I cannot be there",
+        "aspirations": ["Pet that is happy and well-exercised", "Trustworthy care provider"],
+        "fears_and_anxieties": ["Pet alone too long", "Stranger in the house", "Pet not being treated well"],
+        "ideal_future_state": "Peace of mind knowing their pet is walked, fed, and loved while they work or travel"
+      },
+      "problems_and_pain_points": {
+        "top_pain_points": [
+          "Long work hours leaving pet alone",
+          "Travel for work with no one to care for pets",
+          "Wants pet to have daily walks and attention",
+          "Needs reliable, trustworthy pet care provider"
+        ]
+      },
+      "goals_and_desired_outcomes": {
+        "primary_goal": "Reliable daily pet care that feels like family",
+        "success_definition": {
+          "metrics": ["Daily walks", "Consistent feeding schedule", "Regular updates"],
+          "feelings": ["Trust", "Relief", "Confidence"],
+          "results": ["Happier pet", "Less guilt", "Freedom to work/travel"]
+        }
+      },
+      "buying_signals_and_readiness": {
+        "buying_signals": [
+          "New job with longer commute",
+          "Upcoming travel plans",
+          "Pet developing anxiety from being alone",
+          "Moving to the area and needing local services"
+        ]
+      }
+    }
+  ]
+}

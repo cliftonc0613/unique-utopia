@@ -1,0 +1,66 @@
+{
+  "_metadata": {
+    "created_date": "2026-03-23T00:00:00Z",
+    "updated_date": "2026-03-23T00:00:00Z",
+    "version": "1.0"
+  },
+  "personality_and_tone": {
+    "overall_tone": "Warm, friendly, approachable, genuine",
+    "personality_adjectives": ["caring", "trustworthy", "down-to-earth", "cheerful", "detail-oriented"],
+    "energy_level": "Upbeat but not over-the-top",
+    "humor_style": "Light and playful -- 'Your mess is our little secret' captures it perfectly",
+    "vulnerability_balance": "Authentic -- acknowledges the struggle of keeping up with everything"
+  },
+  "core_values_and_beliefs": {
+    "core_communication_values": ["Honesty", "Reliability", "Personal touch", "Community"],
+    "beliefs_about_audience": "Every family deserves a clean home and happy pets without sacrificing their free time",
+    "signature_conviction": "Home care and pet care should come from someone who genuinely cares",
+    "non_negotiables": ["Always show up on time", "Treat every home and pet like your own", "Be honest about what you can do"]
+  },
+  "language_and_patterns": {
+    "signature_phrases": [
+      "Polished Homes. Pampered Pets.",
+      "Your mess is our little secret.",
+      "Call or text Kelly"
+    ],
+    "thought_structure_patterns": ["Lead with empathy, follow with solution"],
+    "avoided_words_or_phrases": ["corporate", "contract", "obligation", "hassle", "cheap", "discount"],
+    "punctuation_style": "Conversational with clear, warm sentences. No excessive exclamation marks.",
+    "slang_and_jargon": []
+  },
+  "storytelling_and_connection": {
+    "storytelling_style": "Personal, relatable -- Kelly shares the real experience of being busy and needing help",
+    "preferred_story_types": ["Customer transformation stories", "Day-in-the-life of pet care visits"],
+    "credibility_approach": "Licensed, insured, bonded credentials paired with genuine care and 100% recommendation rate",
+    "vulnerability_stance": "Honest about the challenges of running a small business while maintaining high standards",
+    "how_you_make_audience_feel": ["Understood", "Relieved", "Trusting", "Hopeful"]
+  },
+  "audience_connection": {
+    "audience_address_style": "Direct and personal -- speaks to 'you' as a fellow busy person",
+    "brand_authenticity_balance": "Professional but never corporate. Friendly neighbor who happens to be a pro."
+  },
+  "communication_guidelines": {
+    "must_haves": [
+      "Personal, warm tone",
+      "Clear call to action (call or text Kelly)",
+      "Mention of both home cleaning and pet care",
+      "Licensed, insured & bonded credentials"
+    ],
+    "never_include": [
+      "Corporate jargon",
+      "Pressure tactics",
+      "Negative competitor mentions",
+      "Unrealistic promises"
+    ],
+    "red_flags": [
+      "Sounds too formal or corporate",
+      "Lacks personal touch",
+      "Focuses on price over value"
+    ],
+    "examples_of_on_brand": [
+      "We help families keep their homes polished and their pets pampered.",
+      "Your mess is our little secret.",
+      "Call or text Kelly today -- no obligations, just honest conversation."
+    ]
+  }
+}

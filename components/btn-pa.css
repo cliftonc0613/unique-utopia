@@ -1,0 +1,99 @@
+/* ======================================
+   Position-Aware Button Hover Effect
+   Optional component - add to any button
+   Based on CodePen by Kyle Brumm
+   ====================================== */
+
+/* Base - only affects elements with .btn-pa class */
+.btn-pa {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.btn-pa .btn-pa-fill {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.btn-pa:hover .btn-pa-fill {
+    width: 600px;
+    height: 600px;
+}
+
+/* --primary: solid button, dark fill on hover */
+.btn-pa--primary {
+    background-color: var(--primary, #2d5a3d);
+    color: #fff;
+    border: 2px solid var(--primary, #2d5a3d);
+}
+
+.btn-pa--primary .btn-pa-fill {
+    background-color: var(--primary-dark, #1e3d28);
+}
+
+.btn-pa--primary:hover {
+    color: #fff;
+}
+
+/* --alt: outline button, primary fill on hover */
+.btn-pa--alt {
+    background-color: transparent;
+    color: var(--primary, #2d5a3d);
+    border: 2px solid var(--primary, #2d5a3d);
+}
+
+.btn-pa--alt .btn-pa-fill {
+    background-color: var(--primary, #2d5a3d);
+}
+
+.btn-pa--alt:hover {
+    color: #fff;
+    border-color: var(--primary, #2d5a3d);
+}
+
+/* --header: for header CTA buttons */
+.btn-pa--header .btn-pa-fill {
+    background-color: var(--primary-dark, #1e3d28);
+}
+
+.btn-pa--header:hover {
+    color: #fff;
+}
+
+/* --cta: for mid-page call-to-action sections */
+.btn-pa--cta .btn-pa-fill {
+    background-color: var(--primary-dark, #1e3d28);
+}
+
+.btn-pa--cta:hover {
+    color: #fff;
+}
+
+/* --contact: solid button, white fill on hover */
+.btn-pa--contact .btn-pa-fill {
+    background-color: #fff;
+}
+
+.btn-pa--contact:hover {
+    color: var(--primary-dark, #1e3d28);
+    border-color: #fff;
+}
+
+/* --contact-alt: outline button, primary fill on hover */
+.btn-pa--contact-alt .btn-pa-fill {
+    background-color: var(--primary, #2d5a3d);
+}
+
+.btn-pa--contact-alt:hover {
+    color: #fff;
+    border-color: var(--primary, #2d5a3d);
+}
