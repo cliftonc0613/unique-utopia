@@ -17,6 +17,17 @@
     <link rel="stylesheet" href="components/btn-pa.css">
 </head>
 <body>
+    <!-- Top Bar - Phone & Credentials -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <span class="top-bar-item"><span class="material-icons">schedule</span> Mon&ndash;Fri 8am&ndash;6pm | Sat 9am&ndash;4pm</span>
+                <span class="top-bar-item top-bar-phone"><span class="material-icons">phone</span> <a href="tel:8645533845">(864) 553-3845</a></span>
+                <span class="top-bar-item"><span class="material-icons">verified_user</span> Licensed, Insured & Bonded</span>
+            </div>
+        </div>
+    </div>
+
     <!-- Header/Navigation -->
     <header class="header">
         <div class="container">
@@ -47,20 +58,29 @@
 
     <!-- Hero Section - StoryBrand Aspirational Identity -->
     <section class="hero">
-        <div class="hero-bg-shapes">
-            <div class="hero-circle hero-circle-1"></div>
-            <div class="hero-circle hero-circle-2"></div>
-            <div class="hero-circle hero-circle-3"></div>
+        <div class="hero-sparkles">
+            <div class="sparkle sparkle-1"></div>
+            <div class="sparkle sparkle-2"></div>
+            <div class="sparkle sparkle-3"></div>
+            <div class="sparkle sparkle-4"></div>
+            <div class="sparkle sparkle-5"></div>
+            <div class="bubble bubble-1"></div>
+            <div class="bubble bubble-2"></div>
+            <div class="bubble bubble-3"></div>
         </div>
         <div class="container">
             <div class="hero-content">
-                <span class="hero-badge">Greer, SC's Trusted Home & Pet Care</span>
-                <h1 class="hero-headline">A Clean Home. Happy Pets. More Time for You.</h1>
-                <p class="hero-subheadline">Professional home cleaning and pet care for busy families. Licensed, insured & bonded.</p>
+                <span class="hero-badge">
+                    <span class="material-icons">verified</span>
+                    Greer, SC's Trusted Home & Pet Care
+                </span>
+                <h1 class="hero-headline">A Clean Home. Happy Pets.<br>More Time for You.</h1>
+                <p class="hero-subheadline">Professional home cleaning and pet care for busy families in Greer, SC. Licensed, insured & bonded.</p>
 
                 <div class="hero-cta">
                     <a href="tel:8645533845" class="btn-primary btn-pa">
                         <span class="btn-pa-fill"></span>
+                        <span class="material-icons">phone</span>
                         Call or Text Kelly
                         <span class="material-icons">arrow_forward</span>
                     </a>
@@ -70,20 +90,19 @@
                     </a>
                 </div>
 
-                <div class="social-proof">
-                    <div class="social-proof-row">
-                        <div class="customer-avatars">
-                            <span class="avatar avatar-1"><span class="material-icons">person</span></span>
-                            <span class="avatar avatar-2"><span class="material-icons">person</span></span>
-                            <span class="avatar avatar-3"><span class="material-icons">person</span></span>
-                            <span class="avatar avatar-4"><span class="material-icons">person</span></span>
-                        </div>
-                        <div class="reviews">
-                            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                            <div class="review-text">100% Recommended</div>
-                        </div>
+                <div class="hero-trust-strip">
+                    <div class="trust-badge-item">
+                        <span class="material-icons">verified_user</span>
+                        <span>Licensed & Insured</span>
                     </div>
-                    <div class="trust-statement">Trusted by Greer families and their furry friends</div>
+                    <div class="trust-badge-item">
+                        <span class="material-icons">workspace_premium</span>
+                        <span>Bonded</span>
+                    </div>
+                    <div class="trust-badge-item">
+                        <span class="material-icons">star</span>
+                        <span>100% Recommended</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -398,18 +417,22 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat">
+                    <span class="material-icons stat-icon">thumb_up</span>
                     <div class="stat-number">100%</div>
                     <div class="stat-label">Recommended</div>
                 </div>
                 <div class="stat">
+                    <span class="material-icons stat-icon">star</span>
                     <div class="stat-number">6+</div>
                     <div class="stat-label">Five-Star Reviews</div>
                 </div>
                 <div class="stat">
+                    <span class="material-icons stat-icon">groups</span>
                     <div class="stat-number">279+</div>
                     <div class="stat-label">Community Followers</div>
                 </div>
                 <div class="stat">
+                    <span class="material-icons stat-icon">home</span>
                     <div class="stat-number">2-in-1</div>
                     <div class="stat-label">Home & Pet Services</div>
                 </div>
@@ -559,6 +582,14 @@
         </div>
     </footer>
 
+    <!-- Sticky Mobile CTA -->
+    <div class="mobile-cta-bar">
+        <a href="tel:8645533845" class="mobile-cta-link">
+            <span class="material-icons">phone</span>
+            Call Kelly Now &mdash; (864) 553-3845
+        </a>
+    </div>
+
     <script src="components/btn-pa.js"></script>
 
     <!-- Mobile Menu & Header Scroll Script -->
@@ -585,13 +616,16 @@
                 });
             }
 
-            // Shrink header on scroll
+            // Shrink header + hide top bar on scroll
             const header = document.querySelector('.header');
+            const topBar = document.querySelector('.top-bar');
             window.addEventListener('scroll', function() {
                 if (window.scrollY > 50) {
                     header.classList.add('scrolled');
+                    if (topBar) topBar.style.transform = 'translateY(-100%)';
                 } else {
                     header.classList.remove('scrolled');
+                    if (topBar) topBar.style.transform = 'translateY(0)';
                 }
             });
 
