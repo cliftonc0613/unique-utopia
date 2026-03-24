@@ -6,29 +6,40 @@
     <title>Unique Utopia | Home Cleaning & Pet Care in Greer, SC</title>
     <meta name="description" content="Professional home cleaning and pet care for busy families in Greer, SC. Licensed, insured & bonded. Call Kelly today at (864) 553-3845.">
 
-    <!-- Google Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Google Fonts - Warm, distinctive pairing -->
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Fonts - Varela Round (headings) + Nunito Sans (body) -->
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="components/btn-pa.css">
 </head>
 <body>
-    <!-- Top Bar - Phone & Credentials -->
+    <!-- Top Bar - Hours, Phone & Credentials -->
     <div class="top-bar">
         <div class="container">
             <div class="top-bar-content">
-                <span class="top-bar-item"><span class="material-icons">schedule</span> Mon&ndash;Fri 8am&ndash;6pm | Sat 9am&ndash;4pm</span>
-                <span class="top-bar-item top-bar-phone"><span class="material-icons">phone</span> <a href="tel:8645533845">(864) 553-3845</a></span>
-                <span class="top-bar-item"><span class="material-icons">verified_user</span> Licensed, Insured & Bonded</span>
+                <span class="top-bar-item">
+                    <span class="material-icons">schedule</span>
+                    Mon&ndash;Fri 8am&ndash;6pm | Sat 9am&ndash;4pm
+                </span>
+                <span class="top-bar-item top-bar-phone">
+                    <span class="material-icons">phone</span>
+                    <a href="tel:8645533845" class="cursor-pointer">(864) 553-3845</a>
+                </span>
+                <span class="top-bar-item">
+                    <span class="material-icons">verified_user</span>
+                    Licensed, Insured &amp; Bonded
+                </span>
             </div>
         </div>
     </div>
 
-    <!-- Header/Navigation -->
+    <!-- Header/Navigation - Fixed Glassmorphism -->
     <header class="header">
         <div class="container">
             <div class="nav-content">
@@ -36,28 +47,32 @@
                     <h1>Unique Utopia</h1>
                 </div>
                 <nav class="nav">
-                    <a href="#">Home</a>
-                    <a href="#services">Services</a>
-                    <a href="#about">About</a>
-                    <a href="#testimonials">Reviews</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#" class="cursor-pointer">Home</a>
+                    <a href="#services" class="cursor-pointer">Services</a>
+                    <a href="#about" class="cursor-pointer">About</a>
+                    <a href="#testimonials" class="cursor-pointer">Reviews</a>
+                    <a href="#contact" class="cursor-pointer">Contact</a>
                 </nav>
                 <div class="header-utilities">
-                    <a href="tel:8645533845" class="get-in-touch-btn btn-pa">
+                    <a href="tel:8645533845" class="get-in-touch-btn btn-pa cursor-pointer">
                         <span class="btn-pa-fill"></span>
                         <span class="material-icons">phone</span>
                         Call Kelly
                     </a>
                 </div>
-                <div class="mobile-menu-toggle">
+                <div class="mobile-menu-toggle cursor-pointer">
                     <span class="material-icons">menu</span>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section - StoryBrand Aspirational Identity -->
+    <!-- Hero Section - Full-Width Photo Background with Overlay -->
     <section class="hero">
+        <div class="hero-bg">
+            <img src="assets/images/hero-clean-home.jpg" alt="Beautifully clean living space in Greer, SC home" loading="eager">
+            <div class="hero-overlay"></div>
+        </div>
         <div class="hero-sparkles">
             <div class="sparkle sparkle-1"></div>
             <div class="sparkle sparkle-2"></div>
@@ -72,19 +87,19 @@
             <div class="hero-content">
                 <span class="hero-badge">
                     <span class="material-icons">verified</span>
-                    Greer, SC's Trusted Home & Pet Care
+                    Greer, SC's Trusted Home &amp; Pet Care
                 </span>
                 <h1 class="hero-headline">A Clean Home. Happy Pets.<br>More Time for You.</h1>
-                <p class="hero-subheadline">Professional home cleaning and pet care for busy families in Greer, SC. Licensed, insured & bonded.</p>
+                <p class="hero-subheadline">Professional home cleaning and pet care for busy families in Greer, SC. Licensed, insured &amp; bonded.</p>
 
                 <div class="hero-cta">
-                    <a href="tel:8645533845" class="btn-primary btn-pa">
+                    <a href="tel:8645533845" class="btn-primary btn-pa cursor-pointer">
                         <span class="btn-pa-fill"></span>
                         <span class="material-icons">phone</span>
                         Call or Text Kelly
                         <span class="material-icons">arrow_forward</span>
                     </a>
-                    <a href="#services" class="btn-secondary btn-pa">
+                    <a href="#services" class="btn-secondary btn-pa cursor-pointer">
                         <span class="btn-pa-fill"></span>
                         See Our Services
                     </a>
@@ -93,7 +108,7 @@
                 <div class="hero-trust-strip">
                     <div class="trust-badge-item">
                         <span class="material-icons">verified_user</span>
-                        <span>Licensed & Insured</span>
+                        <span>Licensed &amp; Insured</span>
                     </div>
                     <div class="trust-badge-item">
                         <span class="material-icons">workspace_premium</span>
@@ -151,7 +166,7 @@
                     <div class="benefit-icon-wrap">
                         <span class="material-icons">verified_user</span>
                     </div>
-                    <h3>Licensed, Insured & Bonded</h3>
+                    <h3>Licensed, Insured &amp; Bonded</h3>
                     <p>Full protection and peace of mind. Your home and pets are in safe, professional hands every single visit.</p>
                 </div>
                 <div class="benefit-card">
@@ -183,18 +198,24 @@
             <!-- Home Cleaning Category -->
             <div class="services-category">
                 <div class="services-category-header">
-                    <span class="material-icons">cleaning_services</span>
-                    <h3>Home Cleaning</h3>
+                    <div class="services-category-image">
+                        <img src="assets/images/cleaning-service.jpg" alt="Professional home cleaning service by Unique Utopia in Greer, SC" loading="lazy">
+                        <div class="services-category-image-overlay"></div>
+                        <div class="services-category-image-content">
+                            <span class="material-icons">cleaning_services</span>
+                            <h3>Home Cleaning</h3>
+                        </div>
+                    </div>
                 </div>
                 <div class="services-grid">
                     <div class="service-card">
                         <span class="material-icons">auto_awesome</span>
-                        <h3>Regular & Deep Cleaning</h3>
+                        <h3>Regular &amp; Deep Cleaning</h3>
                         <p>Thorough top-to-bottom cleaning that makes your home sparkle. Every surface, every detail.</p>
                         <ul>
-                            <li>Dusting & vacuuming</li>
-                            <li>Mopping & floor care</li>
-                            <li>Bathroom & kitchen deep clean</li>
+                            <li>Dusting &amp; vacuuming</li>
+                            <li>Mopping &amp; floor care</li>
+                            <li>Bathroom &amp; kitchen deep clean</li>
                         </ul>
                     </div>
                     <div class="service-card">
@@ -203,7 +224,7 @@
                         <p>Getting ready to move? We leave the place spotless for the next chapter of your life.</p>
                         <ul>
                             <li>Complete property cleaning</li>
-                            <li>Inside cabinets & closets</li>
+                            <li>Inside cabinets &amp; closets</li>
                             <li>Deposit-ready finish</li>
                         </ul>
                     </div>
@@ -213,7 +234,7 @@
                         <p>The extra details that make the real difference in how your home looks and feels.</p>
                         <ul>
                             <li>Laundry service ($20/load)</li>
-                            <li>Appliance & window cleaning</li>
+                            <li>Appliance &amp; window cleaning</li>
                             <li>Light organizing</li>
                         </ul>
                     </div>
@@ -223,33 +244,39 @@
             <!-- Pet Care Category -->
             <div class="services-category">
                 <div class="services-category-header">
-                    <span class="material-icons">pets</span>
-                    <h3>Pet Care</h3>
+                    <div class="services-category-image">
+                        <img src="assets/images/pet-walking.jpg" alt="Professional pet walking and care service in Greer, SC" loading="lazy">
+                        <div class="services-category-image-overlay"></div>
+                        <div class="services-category-image-content">
+                            <span class="material-icons">pets</span>
+                            <h3>Pet Care</h3>
+                        </div>
+                    </div>
                 </div>
                 <div class="services-grid">
                     <div class="service-card">
                         <span class="material-icons">directions_walk</span>
-                        <h3>Pet Sitting & Walking</h3>
+                        <h3>Pet Sitting &amp; Walking</h3>
                         <p>Daily walks, playtime, and companionship while you are away. Your pet stays happy, active, and loved.</p>
                         <ul>
-                            <li>Morning & evening walks</li>
-                            <li>Playtime & exercise</li>
+                            <li>Morning &amp; evening walks</li>
+                            <li>Playtime &amp; exercise</li>
                             <li>Companionship visits</li>
                         </ul>
                     </div>
                     <div class="service-card">
                         <span class="material-icons">water_drop</span>
-                        <h3>Feeding & Daily Care</h3>
+                        <h3>Feeding &amp; Daily Care</h3>
                         <p>Fresh food, clean water, bathing, brushing, and litter box cleaning. All the basics handled with genuine care.</p>
                         <ul>
-                            <li>Feeding & fresh water</li>
-                            <li>Pet bathing & brushing</li>
+                            <li>Feeding &amp; fresh water</li>
+                            <li>Pet bathing &amp; brushing</li>
                             <li>Litter box cleaning</li>
                         </ul>
                     </div>
                     <div class="service-card">
                         <span class="material-icons">calendar_month</span>
-                        <h3>Weekly Walk & Care Bundles</h3>
+                        <h3>Weekly Walk &amp; Care Bundles</h3>
                         <p>Regular scheduled care packages that keep your pet on a routine and give you ongoing peace of mind.</p>
                         <ul>
                             <li>Scheduled weekly visits</li>
@@ -268,7 +295,7 @@
                 </div>
                 <div class="mothers-helper-card">
                     <p>An extra pair of hands for busy moms. Light tidying, laundry help, kid supervision, playtime, dishes, and daily upkeep &mdash;so you can breathe.</p>
-                    <a href="tel:8645533845" class="btn-primary btn-pa">
+                    <a href="tel:8645533845" class="btn-primary btn-pa cursor-pointer">
                         <span class="btn-pa-fill"></span>
                         Ask About This Service
                         <span class="material-icons">arrow_forward</span>
@@ -323,7 +350,7 @@
                     </div>
                     <div class="guarantee">
                         <span class="material-icons">check_circle</span>
-                        <span>Licensed, insured & bonded</span>
+                        <span>Licensed, insured &amp; bonded</span>
                     </div>
                     <div class="guarantee">
                         <span class="material-icons">check_circle</span>
@@ -334,7 +361,7 @@
         </div>
     </section>
 
-    <!-- Gallery Section -->
+    <!-- Gallery Section - Real Photos with Hover Overlays -->
     <section id="gallery" class="gallery">
         <div class="container">
             <div class="section-header">
@@ -342,29 +369,29 @@
                 <p>Polished homes and pampered pets in Greer, SC</p>
             </div>
             <div class="gallery-grid">
-                <div class="gallery-item gallery-placeholder">
-                    <span class="material-icons">kitchen</span>
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-kitchen.jpg" alt="Sparkling clean kitchen after professional deep clean in Greer, SC" loading="lazy">
                     <div class="gallery-caption">Sparkling Kitchen After Deep Clean</div>
                 </div>
-                <div class="gallery-item gallery-placeholder">
-                    <span class="material-icons">living</span>
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-living-room.jpg" alt="Freshly organized and cleaned living room by Unique Utopia" loading="lazy">
                     <div class="gallery-caption">Freshly Organized Living Room</div>
                 </div>
-                <div class="gallery-item gallery-placeholder">
-                    <span class="material-icons">pets</span>
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-happy-dog.jpg" alt="Happy dog after afternoon walk with Unique Utopia pet care" loading="lazy">
                     <div class="gallery-caption">Happy Pup After Afternoon Walk</div>
                 </div>
-                <div class="gallery-item gallery-placeholder">
-                    <span class="material-icons">bathroom</span>
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-bathroom.jpg" alt="Deep cleaned and sanitized bathroom by professional cleaning service" loading="lazy">
                     <div class="gallery-caption">Deep Cleaned Bathroom</div>
                 </div>
-                <div class="gallery-item gallery-placeholder">
-                    <span class="material-icons">self_improvement</span>
-                    <div class="gallery-caption">Pet Sitting & Companionship</div>
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-cat.jpg" alt="Content cat receiving pet sitting and companionship care" loading="lazy">
+                    <div class="gallery-caption">Pet Sitting &amp; Companionship</div>
                 </div>
-                <div class="gallery-item gallery-placeholder">
-                    <span class="material-icons">local_laundry_service</span>
-                    <div class="gallery-caption">Laundry & Fresh Linens</div>
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-laundry.jpg" alt="Fresh laundry and clean linens from Unique Utopia laundry service" loading="lazy">
+                    <div class="gallery-caption">Laundry &amp; Fresh Linens</div>
                 </div>
             </div>
         </div>
@@ -393,7 +420,7 @@
                         <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                         <p>"We use the weekly pet care bundle and it has been a lifesaver. Our cats are always fed, watered, and their litter boxes are spotless. Kelly genuinely loves animals and it shows."</p>
                         <div class="testimonial-author">
-                            <strong>James & Donna T.</strong>
+                            <strong>James &amp; Donna T.</strong>
                             <span>Taylors, SC</span>
                         </div>
                     </div>
@@ -434,13 +461,13 @@
                 <div class="stat">
                     <span class="material-icons stat-icon">home</span>
                     <div class="stat-number">2-in-1</div>
-                    <div class="stat-label">Home & Pet Services</div>
+                    <div class="stat-label">Home &amp; Pet Services</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section - StoryBrand Guide -->
+    <!-- About Section - StoryBrand Guide with Real Photo -->
     <section id="about" class="about">
         <div class="container">
             <div class="about-content">
@@ -449,8 +476,7 @@
                         <div class="photo-frame photo-frame-back"></div>
                         <div class="photo-frame photo-frame-mid"></div>
                         <div class="photo-frame photo-frame-front">
-                            <span class="material-icons">person</span>
-                            <p>Kelly - Owner & Founder</p>
+                            <img src="assets/images/about-kelly.jpg" alt="Kelly, owner and founder of Unique Utopia Home Cleaning and Pet Care in Greer, SC" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -508,7 +534,7 @@
         </div>
     </section>
 
-    <!-- Contact Section - Strong CTA -->
+    <!-- Contact Section - Dark CTA Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="contact-header">
@@ -516,12 +542,12 @@
                 <p>Call or text Kelly today. No obligations, just honest conversation about what you need.</p>
             </div>
             <div class="contact-buttons">
-                <a href="tel:8645533845" class="btn-contact-primary btn-pa">
+                <a href="tel:8645533845" class="btn-contact-primary btn-pa cursor-pointer">
                     <span class="btn-pa-fill"></span>
                     Call or Text Kelly
                     <span class="material-icons">arrow_forward</span>
                 </a>
-                <a href="mailto:uniqueutopia19@gmail.com" class="btn-contact-secondary btn-pa">
+                <a href="mailto:uniqueutopia19@gmail.com" class="btn-contact-secondary btn-pa cursor-pointer">
                     <span class="btn-pa-fill"></span>
                     <span class="material-icons">email</span>
                     Send an Email
@@ -529,20 +555,20 @@
             </div>
             <hr class="contact-divider">
             <div class="contact-details">
-                <a href="tel:8645533845" class="contact-detail">
+                <a href="tel:8645533845" class="contact-detail cursor-pointer">
                     <span class="material-icons">phone</span>
                     (864) 553-3845
                 </a>
-                <a href="mailto:uniqueutopia19@gmail.com" class="contact-detail">
+                <a href="mailto:uniqueutopia19@gmail.com" class="contact-detail cursor-pointer">
                     <span class="material-icons">email</span>
                     uniqueutopia19@gmail.com
                 </a>
             </div>
-            <p class="contact-trust">Licensed, insured & bonded. Serving Greer, SC and surrounding areas. Polished Homes. Pampered Pets.</p>
+            <p class="contact-trust">Licensed, insured &amp; bonded. Serving Greer, SC and surrounding areas. Polished Homes. Pampered Pets.</p>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer - 4-Column Grid -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -550,7 +576,7 @@
                     <h3>Unique Utopia</h3>
                     <p class="footer-tagline">Polished Homes. Pampered Pets.<br>Your mess is our little secret.</p>
                     <div class="footer-credentials">
-                        <span>Licensed, Insured & Bonded &mdash;Greer, SC</span>
+                        <span>Licensed, Insured &amp; Bonded &mdash;Greer, SC</span>
                     </div>
                 </div>
                 <div class="footer-services">
@@ -565,9 +591,9 @@
                 </div>
                 <div class="footer-contact">
                     <h4>Contact</h4>
-                    <p><a href="tel:8645533845">(864) 553-3845</a></p>
-                    <p><a href="mailto:uniqueutopia19@gmail.com">uniqueutopia19@gmail.com</a></p>
-                    <p>Serving Greer, SC & Surrounding Areas</p>
+                    <p><a href="tel:8645533845" class="cursor-pointer">(864) 553-3845</a></p>
+                    <p><a href="mailto:uniqueutopia19@gmail.com" class="cursor-pointer">uniqueutopia19@gmail.com</a></p>
+                    <p>Serving Greer, SC &amp; Surrounding Areas</p>
                 </div>
                 <div class="footer-hours">
                     <h4>Hours</h4>
@@ -577,14 +603,14 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Unique Utopia Home Cleaning & Pet Care. All rights reserved.</p>
+                <p>&copy; 2026 Unique Utopia Home Cleaning &amp; Pet Care. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Sticky Mobile CTA -->
+    <!-- Sticky Mobile CTA - Orange Bar -->
     <div class="mobile-cta-bar">
-        <a href="tel:8645533845" class="mobile-cta-link">
+        <a href="tel:8645533845" class="mobile-cta-link cursor-pointer">
             <span class="material-icons">phone</span>
             Call Kelly Now &mdash; (864) 553-3845
         </a>
@@ -592,7 +618,7 @@
 
     <script src="components/btn-pa.js"></script>
 
-    <!-- Mobile Menu & Header Scroll Script -->
+    <!-- Mobile Menu, Header Scroll & Animation Scripts -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Mobile menu toggle
@@ -607,7 +633,7 @@
                 });
 
                 const navLinks = document.querySelectorAll('.nav a');
-                navLinks.forEach(link => {
+                navLinks.forEach(function(link) {
                     link.addEventListener('click', function() {
                         nav.classList.remove('active');
                         const icon = mobileToggle.querySelector('.material-icons');
@@ -629,10 +655,10 @@
                 }
             });
 
-            // Scroll-triggered fade-in animations
-            const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -40px 0px' };
-            const observer = new IntersectionObserver(function(entries) {
-                entries.forEach(entry => {
+            // Scroll-triggered fade-in animations using IntersectionObserver
+            var observerOptions = { threshold: 0.1, rootMargin: '0px 0px -40px 0px' };
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('visible');
                         observer.unobserve(entry.target);
@@ -640,7 +666,10 @@
                 });
             }, observerOptions);
 
-            document.querySelectorAll('.problem-card, .benefit-card, .service-card, .step, .gallery-item, .testimonial, .stake, .stat, .mothers-helper-card').forEach(el => {
+            var animatedElements = document.querySelectorAll(
+                '.problem-card, .benefit-card, .service-card, .step, .gallery-item, .testimonial, .stake, .stat, .mothers-helper-card, .services-category-image, .photo-stack'
+            );
+            animatedElements.forEach(function(el) {
                 el.classList.add('fade-up');
                 observer.observe(el);
             });
