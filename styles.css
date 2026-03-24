@@ -327,7 +327,7 @@ p {
     left: 0;
     right: 0;
     z-index: 1000;
-    padding: 1rem 2rem;
+    padding: 0.75rem 2.5rem;
     transition: all 0.4s ease;
 }
 
@@ -336,7 +336,7 @@ p {
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
-    padding: 0.6rem 2rem;
+    padding: 0.5rem 2.5rem;
 }
 
 .navbar-content {
@@ -345,19 +345,6 @@ p {
     justify-content: space-between;
     max-width: 1400px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-radius: var(--radius-pill);
-    padding: 0.5rem 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.navbar.scrolled .navbar-content {
-    background: transparent;
-    backdrop-filter: none;
-    border: none;
-    padding: 0.25rem 0;
 }
 
 .logo {
@@ -503,13 +490,9 @@ p {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(
-        90deg,
-        rgba(30, 77, 123, 0.88) 0%,
-        rgba(30, 77, 123, 0.65) 35%,
-        rgba(30, 77, 123, 0.15) 70%,
-        transparent 100%
-    );
+    background:
+        linear-gradient(90deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.05) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 30%, transparent 70%, rgba(0, 0, 0, 0.1) 100%);
     z-index: 1;
 }
 
@@ -574,7 +557,7 @@ p {
 .btn-services {
     display: inline-flex;
     align-items: center;
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(40, 40, 40, 0.75);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     color: var(--white);
@@ -583,15 +566,15 @@ p {
     font-family: var(--font-body);
     font-size: 1rem;
     font-weight: 600;
-    border: 1.5px solid rgba(255, 255, 255, 0.35);
+    border: none;
     transition: all 0.35s ease;
     text-decoration: none;
 }
 
 .btn-services:hover {
-    background: rgba(255, 255, 255, 0.22);
-    border-color: rgba(255, 255, 255, 0.6);
+    background: rgba(40, 40, 40, 0.9);
     color: var(--white);
+    transform: translateY(-2px);
 }
 
 /* Stats Section at Bottom of Hero */
@@ -604,8 +587,19 @@ p {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 0 2rem;
-    transform: translateY(50%);
+    padding: 0;
+}
+
+.stats-section::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: var(--off-white);
+    border-radius: 40px 40px 0 0;
+    z-index: -1;
 }
 
 .reviews-group {
@@ -616,6 +610,8 @@ p {
     padding: 1.25rem 1.75rem;
     border-radius: var(--radius-card);
     box-shadow: var(--shadow-card);
+    margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 
 .reviewer-avatars {
@@ -653,6 +649,7 @@ p {
     height: 120px;
     cursor: pointer;
     flex-shrink: 0;
+    margin-bottom: -20px;
 }
 
 .scroll-ring {
@@ -708,6 +705,8 @@ p {
     border-radius: var(--radius-card);
     box-shadow: var(--shadow-card);
     overflow: hidden;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
 }
 
 .stat-card {
@@ -736,7 +735,7 @@ p {
 
 /* Hero spacer for stats that extend below */
 .hero + section {
-    padding-top: calc(var(--section-padding-y) + 60px);
+    padding-top: calc(var(--section-padding-y) + 20px);
 }
 
 /* ============================================================
