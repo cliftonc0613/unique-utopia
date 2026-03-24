@@ -19,105 +19,94 @@
     <link rel="stylesheet" href="components/btn-pa.css">
 </head>
 <body>
-    <!-- Top Bar - Hours, Phone & Credentials -->
-    <div class="top-bar">
-        <div class="container">
-            <div class="top-bar-content">
-                <span class="top-bar-item">
-                    <span class="material-icons">schedule</span>
-                    Mon&ndash;Fri 8am&ndash;6pm | Sat 9am&ndash;4pm
-                </span>
-                <span class="top-bar-item top-bar-phone">
-                    <span class="material-icons">phone</span>
-                    <a href="tel:8645533845" class="cursor-pointer">(864) 553-3845</a>
-                </span>
-                <span class="top-bar-item">
-                    <span class="material-icons">verified_user</span>
-                    Licensed, Insured &amp; Bonded
-                </span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Header/Navigation - Fixed Glassmorphism -->
-    <header class="header">
-        <div class="container">
-            <div class="nav-content">
-                <div class="logo">
-                    <h1>Unique Utopia</h1>
-                </div>
-                <nav class="nav">
-                    <a href="#" class="cursor-pointer">Home</a>
+    <!-- Hero Section - Full Bleed with Nav Inside -->
+    <section class="hero">
+        <!-- Navigation (inside hero) -->
+        <nav class="navbar">
+            <div class="navbar-content">
+                <a href="#" class="logo cursor-pointer">
+                    <span class="logo-text">Unique Utopia</span>
+                </a>
+                <div class="nav-menu">
                     <a href="#services" class="cursor-pointer">Services</a>
-                    <a href="#about" class="cursor-pointer">About</a>
+                    <a href="#gallery" class="cursor-pointer">Gallery</a>
                     <a href="#testimonials" class="cursor-pointer">Reviews</a>
                     <a href="#contact" class="cursor-pointer">Contact</a>
-                </nav>
-                <div class="header-utilities">
-                    <a href="tel:8645533845" class="get-in-touch-btn btn-pa cursor-pointer">
-                        <span class="btn-pa-fill"></span>
-                        <span class="material-icons">phone</span>
-                        Call Kelly
-                    </a>
+                </div>
+                <div class="nav-right">
+                    <div class="phone-info">
+                        <span class="phone-label">Call us:</span>
+                        <a href="tel:8645533845" class="phone-number cursor-pointer">(864) 553-3845</a>
+                    </div>
+                    <a href="tel:8645533845" class="btn-book cursor-pointer">Call Kelly</a>
                 </div>
                 <div class="mobile-menu-toggle cursor-pointer">
                     <span class="material-icons">menu</span>
                 </div>
             </div>
-        </div>
-    </header>
+        </nav>
 
-    <!-- Hero Section - Full-Width Photo Background with Overlay -->
-    <section class="hero">
-        <div class="hero-bg">
-            <img src="assets/images/hero-clean-home.jpg" alt="Beautifully clean living space in Greer, SC home" loading="eager">
-            <div class="hero-overlay"></div>
+        <!-- Hero Background Image -->
+        <div class="hero-images">
+            <img src="assets/images/hero-clean-home.jpg" alt="Beautifully clean living space in Greer, SC home" class="hero-image" loading="eager">
         </div>
-        <div class="hero-sparkles">
-            <div class="sparkle sparkle-1"></div>
-            <div class="sparkle sparkle-2"></div>
-            <div class="sparkle sparkle-3"></div>
-            <div class="sparkle sparkle-4"></div>
-            <div class="sparkle sparkle-5"></div>
-            <div class="bubble bubble-1"></div>
-            <div class="bubble bubble-2"></div>
-            <div class="bubble bubble-3"></div>
-        </div>
-        <div class="container">
-            <div class="hero-content">
-                <span class="hero-badge">
-                    <span class="material-icons">verified</span>
-                    Greer, SC's Trusted Home &amp; Pet Care
-                </span>
-                <h1 class="hero-headline">A Clean Home. Happy Pets.<br>More Time for You.</h1>
-                <p class="hero-subheadline">Professional home cleaning and pet care for busy families in Greer, SC. Licensed, insured &amp; bonded.</p>
+        <div class="hero-overlay"></div>
 
-                <div class="hero-cta">
-                    <a href="tel:8645533845" class="btn-primary btn-pa cursor-pointer">
-                        <span class="btn-pa-fill"></span>
-                        <span class="material-icons">phone</span>
-                        Call or Text Kelly
-                        <span class="material-icons">arrow_forward</span>
-                    </a>
-                    <a href="#services" class="btn-secondary btn-pa cursor-pointer">
-                        <span class="btn-pa-fill"></span>
-                        See Our Services
-                    </a>
+        <!-- Hero Content (left-aligned) -->
+        <div class="hero-content">
+            <h1 class="hero-title">
+                A Clean Home.<br>
+                <span class="hero-title-highlight">Happy Pets. More Time for You.</span>
+            </h1>
+            <p class="hero-description">
+                Professional home cleaning and pet care for busy families in Greer, SC. Licensed, insured &amp; bonded. Your mess is our little secret.
+            </p>
+            <div class="hero-buttons">
+                <a href="tel:8645533845" class="btn-appointment cursor-pointer">Call or Text Kelly</a>
+                <a href="#services" class="btn-services cursor-pointer">Browse All Services</a>
+            </div>
+        </div>
+
+        <!-- Stats Section at Bottom (extends below hero) -->
+        <div class="stats-section">
+            <div class="reviews-group">
+                <div class="reviewer-avatars">
+                    <div class="avatar-dot" style="background: linear-gradient(135deg, #5B9BD5, #3A7BBF);"></div>
+                    <div class="avatar-dot" style="background: linear-gradient(135deg, #E8852E, #F5A960);"></div>
+                    <div class="avatar-dot" style="background: linear-gradient(135deg, #38B2AC, #5B9BD5);"></div>
                 </div>
+                <div class="review-text">
+                    <span class="review-rating">
+                        <span class="material-icons" style="font-size: 14px; vertical-align: middle; margin-right: 2px;">star</span>
+                        100% Recommended
+                    </span><br>
+                    <span>based on 6+ Five-Star Reviews</span>
+                </div>
+            </div>
 
-                <div class="hero-trust-strip">
-                    <div class="trust-badge-item">
-                        <span class="material-icons">verified_user</span>
-                        <span>Licensed &amp; Insured</span>
-                    </div>
-                    <div class="trust-badge-item">
-                        <span class="material-icons">workspace_premium</span>
-                        <span>Bonded</span>
-                    </div>
-                    <div class="trust-badge-item">
-                        <span class="material-icons">star</span>
-                        <span>100% Recommended</span>
-                    </div>
+            <div class="circular-badge scroll-badge cursor-pointer" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">
+                <svg class="scroll-ring" viewBox="0 0 160 160">
+                    <circle cx="80" cy="80" r="70" fill="none" stroke="rgba(91,155,213,0.3)" stroke-width="2" stroke-dasharray="4 6"></circle>
+                    <circle class="scroll-ring-progress" cx="80" cy="80" r="70" fill="none" stroke="#E8852E" stroke-width="2.5" stroke-dasharray="110 330" stroke-linecap="round"></circle>
+                </svg>
+                <div class="scroll-badge-inner">
+                    <span class="material-icons scroll-paw">cleaning_services</span>
+                    <span class="scroll-label">Explore</span>
+                </div>
+            </div>
+
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Recommended</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2-in-1</div>
+                    <div class="stat-label">Home &amp; Pet Care</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">Greer</div>
+                    <div class="stat-label">SC &amp; Surrounding</div>
                 </div>
             </div>
         </div>
@@ -618,44 +607,41 @@
 
     <script src="components/btn-pa.js"></script>
 
-    <!-- Mobile Menu, Header Scroll & Animation Scripts -->
+    <!-- Mobile Menu, Navbar Scroll & Animation Scripts -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Mobile menu toggle
-            const mobileToggle = document.querySelector('.mobile-menu-toggle');
-            const nav = document.querySelector('.nav');
+            var mobileToggle = document.querySelector('.mobile-menu-toggle');
+            var navMenu = document.querySelector('.nav-menu');
 
-            if (mobileToggle && nav) {
+            if (mobileToggle && navMenu) {
                 mobileToggle.addEventListener('click', function() {
-                    nav.classList.toggle('active');
-                    const icon = mobileToggle.querySelector('.material-icons');
-                    icon.textContent = nav.classList.contains('active') ? 'close' : 'menu';
+                    navMenu.classList.toggle('active');
+                    var icon = mobileToggle.querySelector('.material-icons');
+                    icon.textContent = navMenu.classList.contains('active') ? 'close' : 'menu';
                 });
 
-                const navLinks = document.querySelectorAll('.nav a');
+                var navLinks = document.querySelectorAll('.nav-menu a');
                 navLinks.forEach(function(link) {
                     link.addEventListener('click', function() {
-                        nav.classList.remove('active');
-                        const icon = mobileToggle.querySelector('.material-icons');
+                        navMenu.classList.remove('active');
+                        var icon = mobileToggle.querySelector('.material-icons');
                         icon.textContent = 'menu';
                     });
                 });
             }
 
-            // Shrink header + hide top bar on scroll
-            const header = document.querySelector('.header');
-            const topBar = document.querySelector('.top-bar');
+            // Navbar background on scroll
+            var navbar = document.querySelector('.navbar');
             window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) {
-                    header.classList.add('scrolled');
-                    if (topBar) topBar.style.transform = 'translateY(-100%)';
+                if (window.scrollY > 80) {
+                    navbar.classList.add('scrolled');
                 } else {
-                    header.classList.remove('scrolled');
-                    if (topBar) topBar.style.transform = 'translateY(0)';
+                    navbar.classList.remove('scrolled');
                 }
             });
 
-            // Scroll-triggered fade-in animations using IntersectionObserver
+            // Scroll-triggered fade-in animations
             var observerOptions = { threshold: 0.1, rootMargin: '0px 0px -40px 0px' };
             var observer = new IntersectionObserver(function(entries) {
                 entries.forEach(function(entry) {
@@ -667,7 +653,7 @@
             }, observerOptions);
 
             var animatedElements = document.querySelectorAll(
-                '.problem-card, .benefit-card, .service-card, .step, .gallery-item, .testimonial, .stake, .stat, .mothers-helper-card, .services-category-image, .photo-stack'
+                '.problem-card, .benefit-card, .service-card, .step, .gallery-item, .testimonial, .stake, .mothers-helper-card, .services-category-image, .photo-stack'
             );
             animatedElements.forEach(function(el) {
                 el.classList.add('fade-up');
